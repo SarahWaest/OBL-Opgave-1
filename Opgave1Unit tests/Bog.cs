@@ -9,11 +9,6 @@ namespace Opgave1Unit_tests
         private string _titel;
         private string _isbn13;
 
-        public Bog()
-        {
-
-        }
-
         public Bog(int sidetal, string forfatter, string titel, string isbn13)
         {
             _sidetal = sidetal;
